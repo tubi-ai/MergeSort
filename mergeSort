@@ -1,0 +1,18 @@
+package com.company;
+
+public class mergeSort {
+    void divArr(int[] a) {
+        int size = a.length / 2;
+        if (size > 1) {
+            int ar1[] = new int[size];
+            int ar2[] = new int[size];
+            for (int i = 0; i < size - 1; i++) {
+                ar1[i] = a[i];
+                ar2[i] = a[i + 2 * size];
+            }
+            divArr( int[] ar1);
+        } else {
+            if(a[0]<a[1])
+        }
+    }
+}
